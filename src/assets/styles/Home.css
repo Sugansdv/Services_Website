@@ -1,10 +1,9 @@
 .tooltip-box {
+  position: absolute;
   top: 150px;
-  right: 0.5rem; 
+  right: -100px;
   padding: 0.5rem;
   gap: 0.3rem;
-  max-width: calc(100vw - 1rem); 
-  box-sizing: border-box;
 }
 
 .icon-img {

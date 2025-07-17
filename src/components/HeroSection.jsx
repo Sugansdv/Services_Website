@@ -117,14 +117,24 @@ const HeroSection = () => {
           </div>
 
           {/* Tooltip with Verified Icon */}
-          <div className="absolute top-[150px] sm:top-[300px] right-2 sm:right-4 bg-white rounded-xl shadow-md flex items-center gap-2 p-2 sm:p-4 z-40 max-w-xs sm:max-w-sm">
-  <img src={lightningIcon} alt="Zap Icon" className="w-6 sm:w-8 md:w-10" />
-  <span className="text-sm sm:text-base font-medium text-[#4A66A0]">
-    Unlock a ssafer tomorrow <br className="hidden sm:block" /> with Zahrix!
-  </span>
-  <img src={verifiedIcon} alt="Verified Icon" className="w-6 sm:w-8 md:w-10" />
-</div>
+          <div className="tooltip-box absolute bg-white rounded-xl shadow-md flex items-center z-40">
+            <img
+  src={lightningIcon}
+  alt="Zap Icon"
+  className="w-6 sm:w-8 md:w-10 lg:w-10"
+/>
 
+            <span className="tooltip-text text-sm sm:text-base md:text-sm lg:text-lg font-medium text-[#4A66A0]">
+  Unlock a safer tomorrow <br className="hidden sm:block" /> with Zahrix!!
+</span>
+
+            <img
+  src={verifiedIcon}
+  alt="Verified Icon"
+  className="w-6 sm:w-8 md:w-10 lg:w-12"
+/>
+
+          </div>
         </div>
       </div>
     </section>
