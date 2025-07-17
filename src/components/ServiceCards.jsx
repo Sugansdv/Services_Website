@@ -17,10 +17,10 @@ const ServiceCards = () => {
   <Zap className="text-[#4A66A0] ml-2" size={22} />
 </h2>
 
-     <h2 className="text-2xl mt-4 md:text-3xl font-bold text-black tracking-wide flex justify-center items-center gap-2">
-      ELECTRIC SOLUTIONS FOR A BRIGHTER TOMORROW
-       
-    </h2>
+     <h2 className="text-2xl mt-4 md:text-3xl font-bold text-black tracking-wide flex justify-center items-center gap-2 px-4 sm:px-6 md:px-8">
+  ELECTRIC SOLUTIONS FOR A BRIGHTER TOMORROW
+</h2>
+
     <div className="flex flex-col lg:flex-row justify-center items-start gap-6 px-4 lg:px-16 py-10 mx-10">
       
       {/* Left Image Card */}
