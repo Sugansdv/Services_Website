@@ -25,9 +25,9 @@ const HeroSection = () => {
         className="absolute top-0 right-0 w-[250px] sm:w-[350px] md:w-[600px] z-0"
       />
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12 relative z-10">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12 relative z-10">
         {/* Left */}
-        <div className="space-y-6 text-center md:text-left">
+        <div className="space-y-4 text-center md:text-left">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold leading-tight text-black">
             Transforming Safety and Security With
             Cutting-Edge Technology
