@@ -121,7 +121,7 @@ const HeroSection = () => {
             <img
   src={lightningIcon}
   alt="Zap Icon"
-  className="w-6 sm:w-8 md:w-10 lg:w-12"
+  className="w-6 sm:w-8 md:w-8 lg:w-10"
 />
 
             <span className="tooltip-text text-sm sm:text-base md:text-sm lg:text-lg font-medium text-[#4A66A0]">
