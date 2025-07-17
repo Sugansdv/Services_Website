@@ -125,13 +125,13 @@ const HeroSection = () => {
 />
 
             <span className="tooltip-text text-sm sm:text-base md:text-sm lg:text-lg font-medium text-[#4A66A0]">
-  Unlock a safer tomorrow <br className="hidden sm:block" /> with Zahrix!
+  Unlock a saafer tomorrow <br className="hidden sm:block" /> with Zahrix!
 </span>
 
             <img
   src={verifiedIcon}
   alt="Verified Icon"
-  className="w-6 sm:w-8 md:w-10 lg:w-12"
+  className="w-6 sm:w-8 md:w-10 lg:w-10"
 />
 
           </div>
