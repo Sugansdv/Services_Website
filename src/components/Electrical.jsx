@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from 'react';
 import ElectricalBanner from '../components/ElectricalBanner';
 import serviceimg from '../assets/images/Screenshot 2025-06-12 123446.png';
 import Connectimg from '../assets/images/Screenshot 2025-06-12 165006.png';
@@ -11,6 +12,9 @@ import { Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Electrical = () => {
+   useEffect(() => {
+      document.title = 'Service | Electrical | Services_Website';
+    }, []);
   return (
     <div>
       <ElectricalBanner />

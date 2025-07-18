@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from 'react';
 import BMS_Banner from '../components/BMS_Banner';
 import serviceimg from '../assets/images/Screenshot 2025-06-12 125941.png';
 import Connectimg from '../assets/images/Screenshot 2025-06-12 170435.png';
@@ -11,6 +12,9 @@ import { Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Electrical = () => {
+  useEffect(() => {
+            document.title = 'Service | BMS | Services_Website';
+          }, []);
     return (
         <div>
             <BMS_Banner />

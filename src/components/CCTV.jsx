@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from 'react';
 import CCTVBanner from '../components/CCTVBanner';
 import serviceimg from '../assets/images/Screenshot 2025-06-12 125941.png';
 import Connectimg from '../assets/images/Screenshot 2025-06-12 170435.png';
@@ -12,6 +13,9 @@ import { Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const CCTVServices = () => {
+    useEffect(() => {
+          document.title = 'Service | CCTV | Services_Website';
+        }, []);
     return (
         <div>
             <CCTVBanner />
